@@ -1,0 +1,54 @@
+.company-coordinator {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.company-coordinator h2,
+.company-coordinator h3 {
+  color: #35424a;
+  text-align: center;
+}
+
+.company-coordinator form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.company-coordinator input {
+  padding: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+}
+
+.company-coordinator button {
+  background: #35424a;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.company-coordinator button:hover {
+  background: #e8491d;
+}
+
+.company-coordinator ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.company-coordinator li {
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}

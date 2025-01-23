@@ -1,0 +1,52 @@
+.interview-scheduler {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.interview-scheduler h2 {
+  color: #35424a;
+  margin-bottom: 20px;
+}
+
+.interview-scheduler label {
+  display: block;
+  margin-bottom: 15px;
+  text-align: left;
+  font-size: 1em;
+  color: #333;
+}
+
+.interview-scheduler select,
+.interview-scheduler input[type="date"],
+.interview-scheduler input[type="time"] {
+  width: calc(100% - 22px);
+  padding: 10px;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.interview-scheduler button {
+  background: #35424a;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 15px;
+}
+
+.interview-scheduler button:hover {
+  background: #e8491d;
+}
+
+.interview-scheduler button:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+}
+

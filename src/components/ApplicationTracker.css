@@ -1,0 +1,47 @@
+.application-tracker {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.application-tracker h2 {
+  color: #35424a;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.application-tracker table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.application-tracker th,
+.application-tracker td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.application-tracker th {
+  background-color: #35424a;
+  color: white;
+}
+
+.application-tracker tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.application-tracker .error {
+  color: red;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.application-tracker .loading {
+  text-align: center;
+  margin-top: 20px;
+}
