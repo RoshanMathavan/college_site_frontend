@@ -4,7 +4,7 @@ import './InterviewScheduler.css';
 const InterviewScheduler = () => {
     const [date, setDate] = useState('');
     const [time, setTime] = useState('');
-    const [students, setStudents] = useState([]);
+    const [students] = useState([]);
     const [selectedStudent, setSelectedStudent] = useState('');
 
     useEffect(() => {
