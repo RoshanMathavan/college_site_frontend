@@ -59,10 +59,10 @@ function App() {
               <div className="gallery">
                 <h2>Gallery</h2>
                 <div className="gallery-images">
-                  <img src="https://www.globalinstitutes.edu.in/wp-content/uploads/2019/03/gallery-24-683x1024.jpg" alt="Gallery Image 1" /> 
-                  <img src="https://www.globalinstitutes.edu.in/wp-content/uploads/2019/03/gallery-14.jpg" alt="Gallery Image 2" />
-                  <img src="https://www.globalinstitutes.edu.in/wp-content/uploads/2019/03/gallery-6.jpg" alt="Gallery Image 3" />
-                  <img src="https://www.globalinstitutes.edu.in/wp-content/uploads/2019/03/gallery-7.jpg" alt="Gallery Image 4" />
+                  <img src="https://www.globalinstitutes.edu.in/wp-content/uploads/2019/03/gallery-24-683x1024.jpg"/> 
+                  <img src="https://www.globalinstitutes.edu.in/wp-content/uploads/2019/03/gallery-14.jpg"/>
+                  <img src="https://www.globalinstitutes.edu.in/wp-content/uploads/2019/03/gallery-6.jpg"/>
+                  <img src="https://www.globalinstitutes.edu.in/wp-content/uploads/2019/03/gallery-7.jpg"/>
                 </div>
               </div>
               <div className="newsletter">
